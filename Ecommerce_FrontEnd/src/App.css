@@ -1,0 +1,80 @@
+
+*{
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+#Pages{
+    height : 100vh;
+    width : 100vw; 
+    background-color: aquamarine;
+    display : flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+#Header{
+    height : 50px;
+    width : 100%;
+    background-color :beige;
+    display : flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap : 2rem ;
+}
+
+#Header a {
+    text-decoration: none;
+    color : black;
+}
+#Footer{
+    height : 100px;
+    width : 100%;
+    background-color :beige;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+#Content{
+    flex-grow: 1;
+    display: gird;
+}
+#Filter{
+    width : 25%;
+    height : 100%;
+    background-color: darkgray;
+    display : flex;
+    flex-direction: column;
+}
+#FilterHeading{
+ background-color: gold;
+ display : flex;
+ align-items: center;
+ height : 5%;
+ width : 90%;
+ margin : 5%;
+ 
+ justify-content: space-between;
+
+}
+
+#Category_Container input{
+    width :90%;
+    border-radius: 5px;
+    margin : 5%
+}
+#Category_Container{
+    width : 95%;
+    height : 30%;
+    background-color: burlywood;
+    margin : 2.5%;
+    border-radius : 5px;
+    display : flex;
+    flex-direction: column;    
+}
+#Category_Box{
+    flex-grow: 1;
+   
+    overflow-y: scroll;
+}
+
+
